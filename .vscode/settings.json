@@ -1,6 +1,10 @@
 {
   "C_Cpp.errorSquiggles": "disabled",
   "files.associations": {
-    "unordered_map": "cpp"
+    "unordered_map": "cpp",
+    "vector": "cpp",
+    "unordered_set": "cpp",
+    "iostream": "cpp",
+    "xmemory": "cpp"
   }
 }
