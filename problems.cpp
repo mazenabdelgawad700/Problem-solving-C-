@@ -21,25 +21,22 @@ bool containsNearbyDuplicate(vector<int> &nums, int k)
 {
 
   unordered_map<int, int> seen;
-  for(int i = 0; i < nums.size(); i++)
+  for (int i = 0; i < nums.size(); i++)
   {
     int num = nums.at(i);
-    if(seen.count(num) > 0)
-      {
-        if(abs(i - seen[num]) <= k )
-          return true;
-
-      }
+    if (seen.count(num) > 0)
+    {
+      if (abs(i - seen[num]) <= k)
+        return true;
+    }
     seen[num] = i;
   }
 
   return false;
 }
 
-
 int main()
 {
-
 
   return 0;
 }
