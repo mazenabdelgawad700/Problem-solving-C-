@@ -37,9 +37,6 @@ bool containsNearbyDuplicate(vector<int> &nums, int k)
 
 int main()
 {
-<<<<<<< HEAD
 
-=======
->>>>>>> refs/remotes/origin/main
   return 0;
 }
